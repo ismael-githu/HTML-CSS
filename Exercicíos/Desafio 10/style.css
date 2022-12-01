@@ -1,0 +1,46 @@
+@charset "UTF-8";
+header{
+   
+    color: white;
+    
+}
+body{
+    background-color: aqua;
+    margin: 0%;
+}
+#principal{
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(0, 100, 78), darkgreen);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+}
+a{
+    color: white;
+}
+main{
+    background-color: white;
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: rgba(27, 133, 27, 0.767);
+    text-shadow: 1px 1px 2px darkgreen;
+    font-family: 'indroid';
+}
+.secundario{
+    color: green;
+    text-shadow: 1px 1px 2px;
+    background-color: rgba(0, 230, 230, 0.116);
+    font-family: 'indroid';
+}
+@font-face {
+    font-family:indroid ;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
